@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Login"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/NTSF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="@string/national_traffic_spot_fine"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width=".8in"
+        android:layout_height=".8in"
+        android:layout_below="@id/NTSF"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/todo"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NTSF"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="15dp"
+        android:background="#95ffffff"
+        android:drawableStart="@drawable/ic_baseline_person_outline_24"
+        android:gravity="center"
+        android:hint="@string/police_id"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        tools:ignore="TextFields"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="8dp"
+        android:background="#95ffffff"
+        android:drawableStart="@drawable/ic_outline_lock_24"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        tools:ignore="TextFields"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:autofillHints="" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginbtn"
+        android:layout_width="1.5in"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#2F556A"
+        android:paddingHorizontal=".5in"
+        android:text="@string/login_1"
+        android:textStyle="bold"
+        app:cornerRadius="15in"
+        tools:ignore="InOrMmUsage,OnClick" />
+
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">4_finelist</string>
+    <string name="scrolltextD">
+        1. \nDriving under the influence of liquor / narcotics -\n\t\t 25,000/= \n\n
+
+        2. \nTransporting passengers for hire while being under the influence of liquor -\n\t\t 30,000/= \n\n
+
+        3. \nCausing injuries / death to a person while driving under the influence of liquor -\n\t\t 150,000/= \n\n
+
+        4. \nIn case of causing serious injuries to a person -\n\t\t 25,000/= \n\n
+
+        5. \nDriving through railway crossings in a haphazard manner -\n\t\t 35,000/= \n\n
+
+        6. \nDriving without a valid insurance cover -\n\t\t 35,000/= \n\n
+
+
+    </string>
+
+    <string name="scrolltextV">
+        1. \nMotor vehicles possessed or used without registration -\n\t\t 25,000/= \n\n
+
+        2. \nNot having the revenue licences for motor vehicles -\n\t\t 30,000/= \n\n
+
+        3. \nCausing injuries / death to a person while driving under the influence of liquor -\n\t\t 150,000/= \n\n
+
+        4. \nModifications which  are not accepted by the authorities  -\n\t\t 25,000/= \n\n
+
+
+
+                 </string>
+
+    <string name="scrolltextP">
+
+        1. \nNot using the pedestrian crossing -\n\t\t 5,000/= \n\n
+
+        2. \nbehaviors which cause traffic violations -\n\t\t 6,000/= \n\n
+
+     </string>
+
+
+    <string name="todo">TODO</string>
+    <string name="all_fines">All Fines</string>
+    <string name="back">back</string>
+    <string name="driver_fines">Driver Fines</string>
+    <string name="vehicle_fines">Vehicle Fines</string>
+    <string name="pedestrian_fines">Pedestrian Fines</string>
+    <string name="national_traffic_spot_fine">National Traffic Spot Fine</string>
+    <string name="login">Login</string>
+    <string name="police_id">Police ID</string>
+    <string name="password">Password</string>
+    <string name="login_1">Login</string>
+    <string name="_01234">01234</string>
+    <string name="logout">logout</string>
+    <string name="driver">driver</string>
+    <string name="vehicle">vehicle</string>
+    <string name="pedestrian">pedestrian</string>
+    <string name="view_all_fines">view all fines</string>
+
+    <string name="name">Drivers Name :</string>
+    <string name="driver_2">Driver</string>
+    <string name="home_1">Home</string>
+    <string name="driver_offence_list">Driver - Offence List</string>
+    <string name="licence_no">Licence No :</string>
+    <string name="fine_no">556544</string>
+    <string name="vq">Vehicle</string>
+    <string name="owner_nic">Owner NIC :</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="vehicle_no">Vehicle No :</string>
+    <string name="kt_4193">KT-4193</string>
+    <string name="location">Location :</string>
+    <string name="offence_no">Offence No :</string>
+    <string name="v_102">V-102</string>
+    <string name="footages">Footages</string>
+    <string name="description">Description :</string>
+    <string name="submit">Submit</string>
+
+</resources>
